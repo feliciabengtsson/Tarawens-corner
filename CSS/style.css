@@ -227,3 +227,24 @@ footer {
     font-family: Chilanka;
     src: url(Chilanka-Regular.ttf);
 }
+
+@media screen and (min-width: 769px) {
+    #projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #projects {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .project-image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #projects {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
